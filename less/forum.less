@@ -1,0 +1,102 @@
+/* Preview extension: composer top 3/4 textarea, bottom 1/4 preview panel. Tap header to expand. */
+
+.PreviewComposerWrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+
+  .PreviewComposerTextareaWrap {
+    flex: 3;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+
+    textarea {
+      flex: 1;
+      min-height: 0;
+    }
+  }
+}
+
+.PreviewPanel {
+  flex: 1 1 25%;
+  min-height: 100px;
+  max-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--input-border-color, #e0e0e0);
+  background: var(--body-bg, #fff);
+  transition: flex 0.25s ease, max-height 0.25s ease;
+
+  &.PreviewPanel--expanded {
+    flex: 2 1 50%;
+    max-height: 70vh;
+  }
+}
+
+.PreviewPanel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 12px;
+  border: 0;
+  background: var(--control-bg, #f5f5f5);
+  color: var(--text-color, #333);
+  font-size: 13px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+
+  &:hover {
+    background: var(--control-bg-hover, #eee);
+  }
+}
+
+.PreviewPanel-title {
+  font-weight: 500;
+}
+
+.PreviewPanel-toggle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid currentColor;
+  transition: transform 0.2s ease;
+}
+
+.PreviewPanel--expanded .PreviewPanel-toggle {
+  transform: rotate(180deg);
+}
+
+.PreviewPanel-body {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+
+  a[data-preview-mapped],
+  img[data-preview-mapped] {
+    cursor: pointer;
+  }
+}
+
+.PreviewLayer-error {
+  color: var(--muted-color, #999);
+  padding: 0.5em 0;
+}
+
+/* Preview-on-click mode: hide Flarum's default preview button; we inject our own (DOM) to avoid extend conflicts. */
+.Composer--previewClickMode .item-preview:not([data-preview-eye-injected]) {
+  display: none !important;
+}
+
+.Composer[data-preview-visible='true'] .PreviewToggleBtn.active,
+.Composer[data-preview-visible='true'] .PreviewEyeItem .PreviewToggleBtn {
+  opacity: 1;
+}

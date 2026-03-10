@@ -1,0 +1,13 @@
+{
+  "name": "zerosonesfun/flarum-preview",
+  "private": true,
+  "scripts": {
+    "build": "cd js && npm run build",
+    "dev": "cd js && npm run dev"
+  },
+  "devDependencies": {
+    "flarum-webpack-config": "^3.0.3",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^6.0.1"
+  }
+}

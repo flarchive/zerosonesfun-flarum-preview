@@ -1,0 +1,5 @@
+# When this folder is used as the root of the 2.x branch, ignore build artifacts
+node_modules/
+js/node_modules/
+js/dist/
+vendor/

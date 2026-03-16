@@ -1,0 +1,44 @@
+{
+    "name": "zerosonesfun/flarum-preview",
+    "description": "Live preview for the Flarum composer: split panel below editor or eye-button toggle. Single source of truth: textarea (raw Markdown/BBCode).",
+    "keywords": [
+        "flarum",
+        "extension",
+        "preview",
+        "composer",
+        "markdown"
+    ],
+    "type": "flarum-extension",
+    "version": "2.0.9",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zerosonesfun",
+            "homepage": "https://github.com/zerosonesfun"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zerosonesfun/flarum-preview/issues",
+        "source": "https://github.com/zerosonesfun/flarum-preview"
+    },
+    "require": {
+        "php": ">=8.2",
+        "flarum/core": "^2.0.0-beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZerosOnesFun\\FlarumPreview\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Preview",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-eye",
+                "backgroundColor": "#4d698e",
+                "color": "#fff"
+            }
+        }
+    }
+}

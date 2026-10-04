@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of zerosonesfun/flarum-preview.** Not for installation: use [Packagist](https://packagist.org/packages/zerosonesfun/flarum-preview) or the [upstream repository](https://github.com/zerosonesfun/flarum-preview).
 
-**0** versions archived · Latest: [`2.0.9`](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v2.0.9) · License: `MIT` · Flarum: `^2.0.0-beta`
+**35** versions archived · Latest: [`2.0.9`](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v2.0.9) · License: `MIT` · Flarum: `^2.0.0-beta`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `0.1` | 2026-03-10 | `^1.0` | [Browse](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v0.1) |
+| `0.10` | 2026-03-10 | `^1.0` | [Browse](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v0.10) |
+| `0.11` | 2026-03-10 | `^1.0` | [Browse](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v0.11) |
+| `0.12` | 2026-03-10 | `^1.0` | [Browse](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v0.12) |
+| `0.13` | 2026-03-10 | `^1.0` | [Browse](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v0.13) |
+| `0.14` | 2026-03-10 | `^1.0` | [Browse](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v0.14) |
+| `0.15` | 2026-03-10 | `^1.0` | [Browse](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v0.15) |
+| `0.16` | 2026-03-10 | `^1.0` | [Browse](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v0.16) |
+| `0.17` | 2026-03-10 | `^1.0` | [Browse](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v0.17) |
+| `0.18` | 2026-03-10 | `^1.0` | [Browse](https://github.com/flarchive/zerosonesfun-flarum-preview/tree/archive/v0.18) |
+
+[View all 35 versions](https://github.com/flarchive/zerosonesfun-flarum-preview/tags)
 
 Catalog entry: [packages/zerosonesfun-flarum-preview.json](https://github.com/flarchive/archive-index/blob/main/packages/zerosonesfun-flarum-preview.json)
 
